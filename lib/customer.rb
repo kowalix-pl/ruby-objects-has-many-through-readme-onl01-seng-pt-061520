@@ -21,12 +21,12 @@ class Customer
     Meal.all.select do |meal|
       meal.customer == self
     end
-  end 
+  end
 
   def waiters
     meals.map do |meals|
-      meals.waiter 
-    end 
+      meals.waiter
+    end
   end 
 
 end
