@@ -14,11 +14,11 @@ class Meal
  def self.all
    @@all
  end
- def meals 
+ def meals
    Meal.all.select do |meal|
-     meal.waiter == self 
-   end 
- end 
+     meal.waiter == self
+   end
+ end
  
- 
+
 end
